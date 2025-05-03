@@ -86,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                 .addOnFailureListener(e -> Toast.makeText(this, "Register failed: " + e.getMessage(), Toast.LENGTH_SHORT).show());
     }
 
+    //google sign-in
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
