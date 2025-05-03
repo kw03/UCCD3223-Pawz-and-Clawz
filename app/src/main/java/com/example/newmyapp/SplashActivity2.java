@@ -1,3 +1,4 @@
+//splash activity animation
 package com.example.newmyapp;
 
 import android.content.Intent;
